@@ -1,1 +1,8 @@
 .vscode/settings.json
+logs/
+
+# dbt specific
+airbnb/target/
+airbnb/dbt_packages/
+airbnb/profiles.yml
+airbnb/.user.yml
