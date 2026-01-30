@@ -1,0 +1,6 @@
+# dbt specific
+target/
+dbt_packages/
+profiles.yml
+.user.yml
+logs/

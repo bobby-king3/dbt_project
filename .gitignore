@@ -1,8 +1,8 @@
-.vscode/settings.json
+# Python virtual environment
+.venv/
+
+# Logs
 logs/
 
-# dbt specific
-airbnb/target/
-airbnb/dbt_packages/
-airbnb/profiles.yml
-airbnb/.user.yml
+# VSCode settings
+.vscode/settings.json
