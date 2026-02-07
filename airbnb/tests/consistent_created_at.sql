@@ -9,7 +9,7 @@ dim_listings_cleansed as (
 )
 
 
-select * 
+select f.*
 from fct_reviews f
 join dim_listings_cleansed d
 on f.listing_id = d.listing_id
